@@ -1,0 +1,59 @@
+body{
+    background: palegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pics{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+h2{
+    padding: 0px;
+}
+p{
+    padding: 0px;
+}
+.profile{
+    list-style-type: none;
+    border-bottom: 1px solid green;
+    display: flex;
+    justify-content: space-between
+}
+
+section{
+    width: 380px;
+    height: 100vh;
+    background: white;
+    padding: 0px 10px;
+    margin-left: 1px;
+}
+
+.massage-section{
+    visibility: hidden;
+}
+
+.time-div p{
+    font-size: 0.7em;
+    color: #23c65b;
+}
+
+.massages-div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.massages-div p{
+    font-size: 0.9em;
+    margin: 0px;
+    padding: 2px;
+}
+
+.massages-div h2{
+    font-size: 1.2em;
+    margin: 0px;
+}
